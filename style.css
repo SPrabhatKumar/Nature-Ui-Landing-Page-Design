@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 60%;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: 40% 47%;
+    /* display: relative; */
+}
+
+.top-middle {
+    /* background-color: red; */
+    color: rgb(194, 194, 194);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 270px;
+}
+
+.top-middle h1 {
+    position: relative;
+    left: 100px;
+    width: auto;
+}
+
+.first {
+    width: 200px;
+    margin-left: 350px;
+}
+
+.second {
+    width: 200px;
+    margin-right: 100px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #ff0000; */
+    width: 200px;
+}
+
+.bottom {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+}
+
+.b1 {
+    background-color: #c4b9b9;
+    height: 40vh;
+    width: 25vw;
+}
+
+.b1 h1 {
+    font-weight: 400;
+    font-size: 24px;
+    position: relative;
+    left: 92px;
+    top: 32px;
+}
+
+.b1 p {
+    position: relative;
+    top: 37px;
+    padding: 20px 30px;
+}
+
+.b1bottom {
+    margin-top: 40px;
+    padding-left: 200px;
+}
+
+.b2 {
+    width: 27.5%;
+    height: 100%;
+    /* background-color: aqua; */
+    background-image: url("img2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b3 {
+    width: 20vw;
+    height: 40vh;
+
+}
+
+.three1 {
+    width: 20vw;
+    height: 16vh;
+    background-color: #c4b9b9;
+    color: #000000;
+}
+
+.three2 {
+    width: 20vw;
+    height: 24vh;
+    background-color: #000000;
+    background-image: url("flower.jpg");
+    background-position: 40% 70%;
+    background-size: cover;
+}
+
+.b3 .three1 h3 {
+    padding: 18px 80px;
+    color: #050505;
+    font-weight: 500;
+}
+
+.b3 .three1 p {
+    padding: 0px 74px;
+    color: #1c1c1c;
+}
+
+.b4 {
+    width: 27.5%;
+    height: 100%;
+    background-color: #323232;
+    color: rgb(194, 194, 194);
+}
+
+.heading1 {
+    position: relative;
+    width: 50%;
+    left: 45px;
+    top: 42px;
+    /* background-color: rgb(0, 136, 255); */
+}
+
+.firstdiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    margin-top: 40px;
+    /* background-color: rgb(128, 0, 255); */
+
+}
+
+.firstimg {
+    width: 50px;
+    height: 50px;
+    /* background-color: #ff0000; */
+    position: relative;
+    top: 13px;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-image: url("profile1.png");
+    background-position: center;
+    background-size: cover;
+}
+.secondimg {
+    width: 50px;
+    height: 50px;
+    /* background-color: #ff0000; */
+    position: relative;
+    top: 13px;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-image: url("profile2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.desc {
+    position: relative;
+    width: 58%;
+    bottom: 5px;
+    /* background-color: rosybrown; */
+    left: -3px;
+    top: 9px;
+}
+.desc p{
+    font-weight: 400;
+}
+ 
